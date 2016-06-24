@@ -1,0 +1,58 @@
+<!doctype html>
+
+<html>
+  <meta charset="UTF-8">
+  <title data-simply-field="meta title">
+    Wiki Example Page - Code and Cookies
+  </title>
+  
+  <main>
+    <h1 data-simply-field="title" data-simply-content="text">
+      Page Title
+    </h1>
+
+    <h2>Date</h2>
+    <time data-simply-field="date" data-simply-content="text"
+    datetime="2016-06-24">
+      2016-06-24
+    </time>
+
+    <h2>Tags</h2>
+    <nav role="tags">
+      <ul data-simply-list="tags">
+        <template data-simply-template="tag">
+          <li>
+            <a href="/tags/a+tag/">
+              <span data-simply-field="tag-label">
+                A Tag
+              </span>
+            </a>
+          </li>
+        </template>
+      </ul>
+    </nav>
+
+    <h2>Main Article</h2>
+    <arcticle data-simply-field="main-article">
+      There is some text here.
+    </arcticle>
+  
+    <h2>Attachments</h2>
+    <section role="list" class="attachments" data-simply-list="attachments">
+      <template data-simply-template="attachment">
+        <div role="listitem">
+          <h3 class="attachment-name">
+            <a href="" class="attachment-link">
+              Attachment Name
+            </a>
+          </h3>
+          <p>
+            Attachment description
+          </p>
+        </div>
+      </template>
+    </section>
+  </main>
+  
+  <script src="https://beta.simplyedit.io/0/simply-edit.js" data-api-key="github"></script>
+</html>
