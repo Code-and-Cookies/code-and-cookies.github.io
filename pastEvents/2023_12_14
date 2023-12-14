@@ -1,7 +1,9 @@
 We talked about:
 solid, 
 https://simplycode.substack.com/
-
+cloudflare
+how do we reach people for the next code and cookie(s)?
+design poroposal: make a next file in github that uses a worker to poke a URL on cloudflare and have people make their own cloudflare workers to customise how they want to be reached.
 
 Next time we'll try to talk about
 
