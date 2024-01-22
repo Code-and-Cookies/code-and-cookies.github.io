@@ -13,7 +13,8 @@ There are only two rule:
 
 1. It should be fun
 2. It shouldn't be work
+3. If it's work, see rule #1
 
-Memebers are free to ignore either or both of these rules.
+Members are free to ignore any of these rules.
 
 <img src="code-and-cookies-logo.png" width="100%" />
